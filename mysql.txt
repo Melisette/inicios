@@ -1,0 +1,37 @@
+phyton
+
+base de datos> crear tablas que van a registrar los datos
+git>
+
+cuando se crea una tabla se debe de poner las caracteristicas de l
+
+El nombre de las tablas se debe poner en ingles y en plural
+toda tabla tiene campo id que es un valor unico e irrepetible
+
+
+Estos 3 son las caracteristicas que vas a poner en cada table, x ejm varchar es solo para caracteres
+varchar es flexible
+char es preciso no puedes poner menos o mas caracteres de lo que indicas
+int es solo para numeros enteros 
+double es solo para decimales
+
+id siempre va ser int AUTO_INCREMENT
+
+PRIMAR KEY es un campo unico que no se va repetir en nungun lado
+foreign key 
+
+select* from students
+
+create database agraria;
+
+use agraria;
+
+create table students(
+id int AUTO_INCREMENT,
+name varchar(50),
+last_name varchar(50),
+email varchar(50),
+phone char(9),
+dni char(8),
+carrer varchar(50)
+);
